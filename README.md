@@ -1,7 +1,7 @@
 ## Curriculum ReactJS
 
 Creado con React JS. 
-### `Utilizando:`
+### `Utilizando`
 Fortawesome, 
 bootstrap, 
 formik, 

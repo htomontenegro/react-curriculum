@@ -1,6 +1,127 @@
 .App {
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-weight: lighter !important;
 }
+.sidebar{
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+color: #FFF;
+}
+
+.sidebar-icon{
+  width:100%;
+  margin:auto;
+  text-align:center;
+  font-size:24px;
+}
+.sidebar-titulo-text{
+  font-size:16px;
+  text-align:center;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+.sidebar-subtitulo-text{
+  font-size:14px;
+  font-weight: lighter;
+  text-align:center
+}
+.section-divider {
+  position: relative;
+}
+.section-divider:before {
+      font-family: 'codepen';
+      content: "c"; 
+      width: 2.5rem;
+      height: 2.5rem;
+      background: #2c3e50;
+      border-radius: 100%;
+      position: absolute;
+      top: -1rem;
+      left: calc(50% - 2rem);
+      color: rgba(#2980b9, 0.5);
+      line-height: 6rem;
+      text-indent: 1.75rem;
+      font-size: 3rem;
+    }
+    
+.nombre-apellido{
+  font-size: 30px;
+  font-weight: bolder;
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+}
+.ocupacion{
+  text-align:left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.card{
+  border:0px !important;
+  margin-top: 15px;
+}
+
+.card-experiencia-subtitle{
+  text-transform: uppercase;
+}
+.titulo{
+  text-transform: capitalize;
+  font-size:20px;
+  text-align:left;
+  font-weight: lighter;
+  
+}
+
+.titulo{
+  position:relative;
+}
+
+.experiencia-titulo{
+  font-size:18px;
+  text-transform:capitalize;
+  letter-spacing: 1px;
+  position: relative;
+
+}
+.experiencia-titulo:before{
+  content: ""; 
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #999;
+  border-radius: 100%;
+  position: absolute;
+  top: 0.6rem;
+  left: -1.1rem;
+  /* left: calc(50% - 2rem); */
+  color: rgba(#2980b9, 0.5);
+  line-height: 6rem;
+  text-indent: 1.75rem;
+  font-size: 3rem;
+}
+.experiencia-list{
+  position:relative;
+}
+.experiencia-list:before{
+  content: ""; 
+  /* width: 1rem; */
+  height: calc(100% - 2.5rem);
+  border-left:solid 1px rgb(199, 199, 199);
+  position: absolute;
+  top: 1.6rem;
+  left: 0.6rem;
+  /* left: calc(50% - 2rem); */
+  color: rgba(#2980b9, 0.5);
+}
+
 
 .App-logo {
   height: 40vmin;

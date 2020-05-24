@@ -17,10 +17,7 @@ import {
 
 
 class VistaPrevia extends Component {
-     constructor(props) {
-          super(props);
-          console.log(props);
-     }
+     
 
      componentDidMount() {
 
@@ -42,7 +39,7 @@ class VistaPrevia extends Component {
           return (
                <div id="my-canvas">
                     <Row>
-                         <Col xl="4" className="">
+                         <Col lg="4" md="5" className="">
                               <Card className="text-left sidebar">
                                    <Card.Body className="text-left">
                                         <Card.Text className="py-0 my-1 sidebar-subtitulo-text text-left">
@@ -222,7 +219,7 @@ class VistaPrevia extends Component {
                                    </Card.Body>
                               </Card>
                          </Col>
-                         <Col xl="8">
+                         <Col lg="8" md="7">
                               <Card className="">
                                    <Card.Body className="">
                                         <Card.Title className="nombre-apellido">

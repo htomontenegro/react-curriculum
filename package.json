@@ -12,6 +12,8 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "formik": "^2.1.4",
+    "html-pdf": "^2.2.0",
+    "html2canvas": "^1.0.0-rc.5",
     "install": "^0.13.0",
     "moment": "^2.24.0",
     "npm": "^6.14.2",

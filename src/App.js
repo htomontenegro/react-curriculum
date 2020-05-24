@@ -66,7 +66,7 @@ class App extends Component {
                   }
                 </PDFDownloadLink>
               ) : (
-                <div>Link de descarga aun no disponible</div>
+                <div>Link de descarga aun no disponible. Complete la información</div>
               )}
             </Col>
           </Row>
